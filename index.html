@@ -7,25 +7,36 @@
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
     <title>Excuse</title>
 </head>
 
-<body>
+<body id ="gridContainer">
 
-    <section class="nes-container is-dark">
+    <section id ="speechBubbles" class="nes-container">
         <section class="message-list">
-            <section class="message -left">
-                <i class="nes-bcrikko"></i>
-                <div class="nes-balloon from-left is-dark">
-                    <p>No more bad vibes, Click below!</p>
+            <!-- <section class="message-right">
+                <div class="nes-balloon from-right" style="margin-left: 20%;">
+                  <p>Sorry I need to leave!</p>
                 </div>
-            </section>
+            </section> -->
+              <section class="message -right">
+                <div class="nes-balloon from-right">
+                  <p>Sorry I need to leave!</p>
+                </div>
+              </section>
         </section>
-    </section>
-    </section>
+        <button id="button" class="nes-btn">CLICK HERE</button>
+    </section> 
+    
+      <div id ="container" class="nes-container is-dark with-title">
+        <p class="title">Random Excuse</p>
 
-    <a class="nes-btn">Random Excuse</a>
-
+        <form id="randomExcuse" style="width:80%;">
+        
+        </form>
+      </div>
+      
 
 </body>
 
