@@ -18,6 +18,7 @@ const excuses =
 "OMG! My boyfriend locked himself in our bathroom!",
 "I need to drive my mum to work this evening",
 "My boss wants me to go over some work before 9am tomorrow",
+"Organising a surprise party for a friend!"
 ]
 
 //routes
