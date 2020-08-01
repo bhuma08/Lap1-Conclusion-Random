@@ -59,7 +59,7 @@ const excuses =
 "I'm late for my own party!",
 "It's my birthday today and I have plans with my friends.",
 "*Act like you've just seen a ghost*",
-"I need to be there for my friend right now.",
+"I'm helping my friend move in to her new flat.",
 ]
 
 //routes
