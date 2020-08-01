@@ -77,7 +77,7 @@ a ? res.send(a) : res.send("Please pick a number between 1 and 3.")
 //random
 
 function random(array){
-    let randomGenerator = array[Math.floor(Math.random()*8)]
+    let randomGenerator = array[Math.floor(Math.random()*50)]
     return randomGenerator
 }
 
