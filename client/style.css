@@ -15,7 +15,21 @@ body {
     margin-top: 10%;
     margin-left: 10%;
 } 
-@media screen and (min-width: 736px) {
+@media screen and (min-width: 1000px){
+    #gridContainer {
+        display: grid;
+        grid-template-columns: 45% 55% ;
+        grid-template-rows: auto;
+    }
+
+    #container {
+        margin-top: 10%;
+        height: 60%;
+        max-width: 60%;
+        margin-left: 10%;  
+    }
+}
+@media (min-width: 736px) and (max-width: 1025px) {
     #gridContainer {
         display: grid;
         grid-template-columns: 45% 55% ;
