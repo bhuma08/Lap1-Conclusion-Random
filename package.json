@@ -1,7 +1,6 @@
 {
   "name": "excuse",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
     "cors": "^2.8.5",
@@ -26,5 +25,6 @@
   "homepage": "https://github.com/bhuma08/random#readme",
   "engines": {
     "node": "14.5.0"
-  }
+  },
+  "description": ""
 }
