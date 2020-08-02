@@ -7,7 +7,7 @@ function post(e){
       e.preventDefault();
       excuseGenerator.innerHTML = " ";
 
-      fetch("http://localhost:3000/excuse/random")
+      fetch("https://randomexcuse.herokuapp.com/excuse/random")
       .then(response => response.json())
       .then(info)
       .catch(console.error())
