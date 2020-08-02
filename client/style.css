@@ -8,8 +8,6 @@ body {
     margin-left: 25%;
 }
 
-
-
 #speechBubbles {
     border: none;
     margin-top: 10%;
@@ -54,10 +52,8 @@ body {
 
     #container {
         margin-top: 90%;
-       
         height: 175px;
         width: 500px;
-        /* margin-left: 15%;   */
     }
 } 
 
