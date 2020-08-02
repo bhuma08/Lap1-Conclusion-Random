@@ -31,7 +31,9 @@ function random(array){
     let randomGenerator = array[Math.floor(Math.random()*50)]
     return randomGenerator
 }
-const port = process.env.PORT || 3000; // if there is no PORT env variable, 3000 will be used
-server.listen(port, () => console.log(`Express is running on port ${port}`))
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
+
+server.listen(port,host, () => console.log(`Express is running on port ${port}`))
 
 // server.listen(port, () => console.log(`Get your expresso at http://localhost:${port}`))
