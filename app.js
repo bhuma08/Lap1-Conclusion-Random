@@ -7,7 +7,7 @@ const server = express();
 server.use(cors());
 server.use(bodyParser.text());
 
-const port = 3000;
+// const port = 3000;
 
 //Access external data storage
 let rawData = fs.readFileSync("excuse.json");
@@ -31,5 +31,9 @@ function random(array){
     let randomGenerator = array[Math.floor(Math.random()*50)]
     return randomGenerator
 }
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
 
-server.listen(port, () => console.log(`Get your expresso at http://localhost:${port}`))
+server.listen(port,host, () => console.log(`Express is running on port ${port}`))
+
+// server.listen(port, () => console.log(`Get your expresso at http://localhost:${port}`))
