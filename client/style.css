@@ -53,13 +53,19 @@ body {
     }
 
     #container {
-        margin-top: 58%;
+        margin-top: 90%;
+       
         height: 175px;
-        width: 300px;
-        margin-left: 15%;  
+        width: 500px;
+        /* margin-left: 15%;   */
     }
 } 
 
+@media screen and (min-height: 800px){
+    #container {
+        margin-top: 95%;
+    }
+} 
 
 
 
