@@ -1,8 +1,6 @@
 body {
-    /* background-image: url("https://i.gifer.com/OVBs.gif"); */
     background-image: url("https://i.pinimg.com/originals/a3/3b/7a/a33b7ae13022907c0f5c25b7ac714f48.gif");
-    /* background-image: url("https://i.pinimg.com/originals/42/49/74/424974881a962b5f2de02f2bfd1c88d2.gif"); */
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 
 }
@@ -10,21 +8,64 @@ body {
     margin-left: 25%;
 }
 
-#container {
-    margin-top: 10%;
-    height: 70%;
-    max-width: 70%;
-    margin-left: 10%;  
-}
+
 
 #speechBubbles {
     border: none;
     margin-top: 10%;
     margin-left: 10%;
 } 
+@media screen and (min-width: 1000px){
+    #gridContainer {
+        display: grid;
+        grid-template-columns: 45% 55% ;
+        grid-template-rows: auto;
+    }
 
-#gridContainer {
-    display: grid;
-    grid-template-columns: 45% 55% ;
-    grid-template-rows: auto;
+    #container {
+        margin-top: 10%;
+        height: 60%;
+        max-width: 60%;
+        margin-left: 10%;  
+    }
 }
+@media (min-width: 736px) and (max-width: 1025px) {
+    #gridContainer {
+        display: grid;
+        grid-template-columns: 45% 55% ;
+        grid-template-rows: auto;
+    }
+
+    #container {
+        margin-top: 10%;
+        height: 70%;
+        max-width: 70%;
+        margin-left: 10%;  
+    }
+
+} 
+
+@media screen and (max-width: 736px){
+    body{
+        background-image: url("https://i.pinimg.com/originals/a3/3b/7a/a33b7ae13022907c0f5c25b7ac714f48.gif");
+        background-position: 50%;
+        background-repeat: repeat;
+    }
+
+    #container {
+        margin-top: 90%;
+       
+        height: 175px;
+        width: 500px;
+        /* margin-left: 15%;   */
+    }
+} 
+
+@media screen and (min-height: 800px){
+    #container {
+        margin-top: 95%;
+    }
+} 
+
+
+
