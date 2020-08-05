@@ -36,4 +36,5 @@ const port = process.env.PORT || 3000;
 
 server.listen(port,host, () => console.log(`Express is running on port ${port}`))
 
+module.exports = server;
 // server.listen(port, () => console.log(`Get your expresso at http://localhost:${port}`))
