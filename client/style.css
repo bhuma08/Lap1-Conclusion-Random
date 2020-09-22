@@ -1,5 +1,6 @@
 body {
-    background-image: url("https://i.pinimg.com/originals/a3/3b/7a/a33b7ae13022907c0f5c25b7ac714f48.gif");
+    /* background-image: url("https://i.pinimg.com/originals/a3/3b/7a/a33b7ae13022907c0f5c25b7ac714f48.gif"); */
+    background-image: url('https://media1.tenor.com/images/e40e8f2dddb8e9a9e78bb7e3b1367bf4/tenor.gif?itemid=16787823');
     background-repeat: repeat;
     background-size: cover;
 
@@ -13,6 +14,7 @@ body {
     margin-top: 10%;
     margin-left: 10%;
 } 
+
 @media screen and (min-width: 1000px){
     #gridContainer {
         display: grid;
@@ -27,41 +29,9 @@ body {
         margin-left: 10%;  
     }
 }
-@media (min-width: 736px) and (max-width: 1025px) {
-    #gridContainer {
-        display: grid;
-        grid-template-columns: 45% 55% ;
-        grid-template-rows: auto;
-    }
 
-    #container {
-        margin-top: 10%;
-        height: 70%;
-        max-width: 70%;
-        margin-left: 10%;  
-    }
 
-} 
 
-@media screen and (max-width: 736px){
-    body{
-        background-image: url("https://i.pinimg.com/originals/a3/3b/7a/a33b7ae13022907c0f5c25b7ac714f48.gif");
-        background-position: 50%;
-        background-repeat: repeat;
-    }
-
-    #container {
-        margin-top: 90%;
-        height: 175px;
-        width: 500px;
-    }
-} 
-
-@media screen and (min-height: 800px){
-    #container {
-        margin-top: 95%;
-    }
-} 
 
 
 
